@@ -2,10 +2,9 @@
 #include<stdlib.h>
 /**
  * main - prints all the numbers of base 16 in lowercase,
- * 
  * followed by a new line
  * 
- * Return 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
