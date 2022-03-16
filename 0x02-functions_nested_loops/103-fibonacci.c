@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - finds and prints the sum of the even-valued terms
  * followed by a new line
@@ -15,17 +14,15 @@ int main(void)
 	sum = 0;
 
 	for (i = 1; i <= 33; ++i)
-	{
-		if (j < 4000000 && (j % 2) == 0)
-		{
-			sum = sum + j;
-		}
-		next = j + k;
-		j = k;
-		k = next;
-	}
-
+{
+	if (j < 4000000 && (j % 2) == 0)
+{
+	sum = sum + j;
+}
+	next = j + k;
+	j = k;
+	k = next;
+}
 	printf("%lu\n", sum);
-
 	return (0);
 }
