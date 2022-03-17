@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * print_line - A function that draws a
@@ -8,9 +8,18 @@
 
 void print_line(int n)
 {
-	while (n > 0)
+	if (n > 0)
+{
+    _putchar('\n');
+}
+    else
+{
+    int i;
+
+    for (i = 1; i <= n; i++)
 {
 	putchar('_');
-	n--;
+}
+    _putchar('\n');
 }
 }
