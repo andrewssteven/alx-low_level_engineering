@@ -1,5 +1,5 @@
-#ifndef MAIN_MAIN
-#define MAIN_MAIN
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
 char _memset(char *s, char b, unsigned int n);
 char _*memcpy(char *dest, char *src, unsigned int n);
