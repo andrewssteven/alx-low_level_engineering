@@ -1,25 +1,21 @@
 #include "main.h"
 
 /**
- * puts2 - prints one char out of 2 of a string
- * followed by a new line
- * @str: string to print the chars from
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
+ *
+ * Return: the length of the string
  */
-void puts2(char *str)
+int _strlen(char *s)
 {
-	int len, i;
+	int i;
 
-	len = 0;
+	i = 0;
 
-	while (str[len] != '\0')
+	while (s[i] != '\0')
 	{
-		len++;
+		i++;
 	}
 
-	for (i = 0; i < len; i += 2)
-	{
-		_putchar(str[i]);
-	}
-
-	_putchar('\n');
+	return (i);
 }
